@@ -1,67 +1,83 @@
-# Quick Translator
 
-**Author**: [BrunoDiktator](https://github.com/SeniorAm)
 
-## موارد مورد نیاز 
 
-برای اجرای این پروژه، نیاز به نصب پایتون روی سیستم‌عامل ویندوز خود دارید.
+# 🌍 Quick Translator
+> **A Smart & Instant Clipboard Translator for Windows**
 
-### مراحل نصب
+[![Author](https://img.shields.io/badge/Author-BrunoDiktator-orange?style=flat-square&logo=github)](https://github.com/SeniorAm)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)](https://www.python.org/)
+[![Library](https://img.shields.io/badge/Library-PyQt5%20%26%20GoogleTrans-green?style=flat-square)](https://pypi.org/project/googletrans/)
 
-1. **نصب پایتون**  
-   ابتدا مطمئن شوید که پایتون روی سیستم شما نصب شده است. برای دانلود و نصب پایتون، می‌توانید به [صفحه دانلود پایتون](https://www.python.org/downloads/) مراجعه کنید.
+---
 
-2. **باز کردن CMD**  
-   برای باز کردن خط فرمان (Command Prompt) در ویندوز، می‌توانید از دو روش زیر استفاده کنید:
-   - کلیدهای `Win+R` را فشار دهید و در کادر باز شده `cmd` را تایپ کنید.
-   - در نوار جستجو پایین سمت چپ، عبارت `cmd` را تایپ کنید و آن را انتخاب کنید.
+## 🇮🇷 راهنمای فارسی (Persian Guide)
 
-3. **نصب ماژول‌های مورد نیاز**  
-   اگر پایتون به درستی نصب شده باشد، می‌توانید از دستور زیر برای نصب ماژول‌های مورد نیاز استفاده کنید:
+### ✨ ویژگی‌ها
+- ⚡ **ترجمه آنی:** فقط کپی کنید، ترجمه را تحویل بگیرید.
+- 🛠 **نصب آسان:** بدون تنظیمات پیچیده.
+- 🎨 **رابط کاربری:** طراحی شده با PyQt5.
 
-   ```sh
+### 🛠 پیش‌نیازها
+برای اجرای این پروژه، باید پایتون را روی ویندوز خود نصب داشته باشید. اگر نصب ندارید، از [سایت رسمی پایتون](https://www.python.org/downloads/) اقدام کنید.
+
+### 🚀 مراحل نصب و اجرا
+1. **باز کردن CMD:** کلیدهای `Win+R` را فشار دهید، عبارت `cmd` را تایپ کنید و Enter بزنید.
+2. **نصب ماژول‌ها:** دستور زیر را کپی و در CMD اجرا کنید:
+   ```bash
    pip install pyperclip PyQt5 googletrans==4.0.0-rc1
 
+```
 
-**پس از نصب ماژول‌ها، فایل خود را با دستور زیر اجرا کنید:**
+3. **اجرای برنامه:** فایل پروژه را با دستور زیر اجرا کنید:
+```bash
+python "translator.py"
 
-
-`python "translator.py"`
-
-   
-**روش استفاده**
-روی متنی که می‌خواهید ترجمه کنید با موس بکشید و سپس با فشردن Ctrl+C آن را کپی کنید تا به‌صورت خودکار ترجمه شود.
+```
 
 
-##English
 
-# Quick Translator
+### 💡 روش استفاده
 
-**Author**: [BrunoDiktator](https://github.com/SeniorAm)
+متن مورد نظر را با موس انتخاب کرده و کلید **Ctrl+C** را بزنید. برنامه به صورت خودکار محتوای کپی شده را شناسایی و ترجمه می‌کند.
 
-## Requirements
+---
 
-To run this project, you'll need to have Python installed on your Windows operating system.
+## 🇬🇧 English Guide
 
-### Installation Steps
+### 🛠 Requirements
 
-1. **Install Python**  
-   First, make sure that Python is installed on your system. You can download and install Python from the [official Python download page](https://www.python.org/downloads/).
+To run this project, you need Python installed on your Windows system. Download it from [Python.org](https://www.python.org/downloads/).
 
-2. **Open CMD**  
-   To open the Command Prompt (CMD) on Windows, you can use one of the following methods:
-   - Press `Win+R`, type `cmd` in the dialog box, and press Enter.
-   - Alternatively, type `cmd` in the search bar at the bottom left and select it from the results.
+### 🚀 Setup & Installation
 
-3. **Install Required Modules**  
-   If Python is installed correctly, you can install the necessary modules by running the following command:
+1. **Open Command Prompt:** Press `Win+R`, type `cmd`, and press Enter.
+2. **Install Dependencies:** Run the following command:
+```bash
+pip install pyperclip PyQt5 googletrans==4.0.0-rc1
 
-   ```sh
-   pip install pyperclip PyQt5 googletrans==4.0.0-rc1
-
-**After installing the modules, run your file using the following command:**
-
-`python "translator.py"`
+```
 
 
-To use the translator, select the text you want to translate with your mouse, then press Ctrl+C to copy it. The text will be translated automatically.
+3. **Run the Script:** Start the translator by running:
+```bash
+python "translator.py"
+
+```
+
+
+
+### 💡 How to Use
+
+Simply highlight any text and press **Ctrl+C**. The translator will automatically catch the clipboard data and show the translation instantly.
+
+---
+
+## 👨‍💻 Developed By
+
+**BrunoDiktator** - GitHub: [@SeniorAm](https://github.com/SeniorAm)
+
+---
+
+<p align="center"> ⭐ If you find this tool useful, don't forget to give it a star! </p>
+
+```
